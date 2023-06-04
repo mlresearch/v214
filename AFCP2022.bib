@@ -1,0 +1,64 @@
+@proceedings{AFCP2022,
+  booktitle    = "Proceedings of the Workshop on Algorithmic Fairness through the Lens of Causality and Privacy",
+  name         = "Workshop on Algorithmic Fairness through the Lens of Causality and Privacy",
+  shortname    = "AFCP",
+  year         = "2022",
+  editor       = "Dieng, Awa and Rateike, Miriam and Farnadi, Golnoosh and Fioretto, Ferdinando and Kusner, Matt and Schrouff, Jessica",
+  volume       = 214,
+  start  = "2022-12-03",
+  end  = "2022-12-03",
+  published = {2023-06-04},
+  address = "New Orleans Ernest N. Morial Convention Center, New Orleans, United States of America, hybrid",
+  conference_url = "https://www.afciworkshop.org/",
+  conference_number = "",
+  organization="PMLR"
+}
+
+@InProceedings{dieng22,
+  title={Algorithmic Fairness through the Lens of Causality and Privacy (AFCP) 2022},
+  author={Dieng, Awa and Rateike, Miriam and Farnadi, Golnoosh and Fioretto, Ferdinando and Kusner, Matt and Schrouff, Jessica},
+  pages={1--6},
+  year={2022},
+  organization={PMLR}
+}
+
+@InProceedings{binkyte22,
+  author       = "Binkyt\.{e}, R\={u}ta and Makhlouf, Karima and Pinz\'{o}n, Carlos and Zhioua, Sami and Palamidessi, Catuscia",
+  title        = "Causal Discovery for Fairness",
+ booktitle    = "Workshop on Algorithmic Fairness through the Lens of Causality and Privacy",
+   year         = "2022",
+  pages        = "7--22",
+  abstract        = "Fairness guarantees that the ML decisions do not result in discrimination against individuals or minority groups. Identifying and measuring reliably fairness/discrimination is better achieved using causality which considers the causal relation, beyond mere association, between the sensitive attribute (e.g. gender, race, religion, etc.) and the decision (e.g. job hiring, loan granting, etc.). The big impediment to the use of causality to address fairness, however, is the unavailability of the causal model (typically represented as a causal graph). Existing causal approaches to fairness in the literature do not address this problem and assume that the causal model is available. In this paper, we do not make such an assumption and we review the major algorithms to discover causal relations from observable data. This study focuses on causal discovery and its impact on fairness. In particular, we show how different causal discovery approaches may result in different causal models and, most importantly, how even slight differences between causal models can have significant impact on fairness/discrimination conclusions.",
+}
+
+@InProceedings{friedberg22,
+  author       = "Friedberg, Rina and Rogers, Ryan",
+  title        = "Privacy Aware Experimentation over Sensitive Groups: A General Chi Square Approach",
+ booktitle    = "Proceedings of the Workshop on Algorithmic Fairness through the Lens of Causality and Privacy",
+   year         = "2022",
+  pages        = "23-66",
+  abstract        = "As companies work to provide the best possible experience for members, users, and customers, it is crucial to understand how different people – particularly individuals from sensitive groups - have different experiences. For example, do women visit our platform less frequently than members of other genders? Or perhaps, are people with disabilities disproportionately affected by a change to our user interface? However, to run these statistical tests or form estimates to answer these questions, we need to know sensitive attributes. When dealing with personal data, privacy techniques should be considered, especially when we are dealing with sensitive groups, e.g. race/ethnicity or gender. We study a new privacy model where users belong to certain sensitive groups, and we show how to conduct statistical inference on whether there are significant differences in outcomes between the various groups. We introduce a general chi-squared test that accounts for differential privacy in group membership, and show how this covers a broad set of hypothesis tests, improving statistical power over tests that ignore the noise due to privacy.",
+}
+
+
+@InProceedings{juarez22,
+  author       = "Juarez, Marc and Korolova, Aleksandra",
+  title        = "``You Can’t Fix What You Can’t Measure'': Privately Measuring Demographic Performance Disparities in Federated Learning",
+ booktitle    = "Proceedings of the Workshop on Algorithmic Fairness through the Lens of Causality and Privacy",
+   year         = "2022",
+  pages        = "67-85",
+  abstract        = "As in traditional machine learning models, models trained with federated learning may exhibit disparate performance across demographic groups. Model holders must identify these disparities to mitigate undue harm to the groups. However, measuring a model’s performance in a group requires access to information about group membership which, for privacy reasons, often has limited availability. We propose novel locally differentially private mechanisms to measure differences in performance across groups while protecting the privacy of group membership. To analyze the effectiveness of the mechanisms, we bound their error in estimating a disparity when optimized for a given privacy budget. Our results show that the error rapidly decreases for realistic numbers of participating clients, demonstrating that, contrary to what prior work suggested, protecting privacy is not necessarily in conflict with identifying performance disparities of federated models.",
+}
+
+
+@InProceedings{lowy22,
+  author       = "Lowy, Andrew and Gupta, Devansh and Razaviyayn, Meisam",
+  title        = "Stochastic Differentially Private and Fair Learning",
+ booktitle    = "Proceedings of the Workshop on Algorithmic Fairness through the Lens of Causality and Privacy",
+   year         = "2022",
+  pages        = "86-119",
+  abstract        = "Machine learning models are increasingly used in high-stakes decision-making systems. In such applications, a major concern is that these models sometimes discriminate against certain demographic groups such as individuals with certain race, gender, or age. Another major concern in these applications is the violation of the privacy of users. While <em>fair learning</em> algorithms have been developed to mitigate discrimination issues, these algorithms can still <em>leak</em> sensitive information, such as individuals’ health or financial records. Utilizing the notion of <em>differential privacy (DP)</em>, prior works aimed at developing learning algorithms that are both private and fair. However, existing algorithms for DP fair learning are either not guaranteed to converge or require full batch of data in each iteration of the algorithm to converge. In this paper, we provide the first <em>stochastic</em> differentially private algorithm for fair learning that is guaranteed to converge. Here, the term ``stochastic'' refers to the fact that our proposed algorithm converges even when <em>minibatches</em> of data are used at each iteration (i.e. <em>stochastic optimization</em>). Our framework is flexible enough to permit different fairness notions, including demographic parity and equalized odds. In addition, our algorithm can be applied to non-binary classification tasks with multiple (non-binary) sensitive attributes. As a byproduct of our convergence analysis, we provide the first utility guarantee for a DP algorithm for solving nonconvex-strongly concave min-max problems. Our numerical experiments show that the proposed algorithm <em>consistently offers significant performance gains over the state-of-the-art baselines</em>, and can be applied to larger scale problems with non-binary target/sensitive attributes.",
+}
+
+
+

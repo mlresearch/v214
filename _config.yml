@@ -1,0 +1,94 @@
+---
+booktitle: Proceedings of the Workshop on Algorithmic Fairness through the Lens of
+  Causality and Privacy
+shortname: AFCP
+year: '2022'
+volume: '214'
+start: 2022-12-03
+end: 2022-12-03
+published: 2023-06-04
+conference_number: ''
+organization: PMLR
+layout: proceedings
+series: Proceedings of Machine Learning Research
+publisher: PMLR
+issn: 2640-3498
+id: AFCP2022
+month: 0
+cycles: false
+bibtex_editor: Dieng, Awa and Rateike, Miriam and Farnadi, Golnoosh and Fioretto,
+  Ferdinando and Kusner, Matt and Schrouff, Jessica
+editor:
+- given: Awa
+  family: Dieng
+- given: Miriam
+  family: Rateike
+- given: Golnoosh
+  family: Farnadi
+- given: Ferdinando
+  family: Fioretto
+- given: Matt
+  family: Kusner
+- given: Jessica
+  family: Schrouff
+title: Proceedings of Machine Learning Research
+description: |
+  Proceedings of the Workshop on Algorithmic Fairness through the Lens of Causality and Privacy
+    Held in New Orleans Ernest N. Morial Convention Center, New Orleans, United States of America, hybrid on 03 December 2022
+
+  Published as Volume 214 by the Proceedings of Machine Learning Research on 04 June 2023.
+
+  Volume Edited by:
+    Awa Dieng
+    Miriam Rateike
+    Golnoosh Farnadi
+    Ferdinando Fioretto
+    Matt Kusner
+    Jessica Schrouff
+
+  Series Editors:
+    Neil D. Lawrence
+date_str: 03 Dec
+url: https://proceedings.mlr.press
+author:
+  name: PMLR
+baseurl: "/v214"
+twitter_username: MLResearchPress
+github_username: mlresearch
+markdown: kramdown
+exclude:
+- README.md
+- Gemfile
+- ".gitignore"
+plugins:
+- jekyll-feed
+- jekyll-seo-tag
+- jekyll-remote-theme
+remote_theme: mlresearch/jekyll-theme
+style: pmlr
+permalink: "/:title.html"
+ghub:
+  edit: true
+  repository: v214
+display:
+  copy_button:
+    bibtex: true
+    endnote: true
+    apa: true
+  comments: false
+volume_type: Volume
+volume_dir: v214
+email: ''
+conference:
+  name: Workshop on Algorithmic Fairness through the Lens of Causality and Privacy
+  url: https://www.afciworkshop.org/
+  location: New Orleans Ernest N. Morial Convention Center, New Orleans, United States
+    of America, hybrid
+  dates:
+  - 2022-12-03
+analytics:
+  google:
+    tracking_id: UA-92432422-1
+orig_bibfile: "/Users/neil/mlresearch/v214/AFCP2022.bib"
+# Site settings
+# Original source:  /Users/neil/mlresearch/v214/AFCP2022.bib
